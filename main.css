@@ -36,7 +36,7 @@ header,.nav,.reg{
     border: 2px solid black;
 }
 main{
-    min-height: 1500px;
+    min-height: 800px;
 }
 .reg-button:hover{
     background-color: white;
@@ -67,9 +67,6 @@ footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-.fot img{
-    width: 300px;
 }
 @media screen and (max-width: 1028px) and (min-width: 800px){
     footer{
