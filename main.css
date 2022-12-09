@@ -82,7 +82,7 @@ footer{
         font-size: 15px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) and (min-width: 600px){
     footer{
         height: 80px;
     }
@@ -96,4 +96,19 @@ footer{
         font-size: 10px;
     }
 }
+@media screen and (max-width: 600px){
+    footer{
+        height: 60px;
+    }
+    .nav :not(last-child){
+        padding-right: 3px;
+    }
+    .logo{
+        height: 20px;
+    }
+    footer p{
+        font-size: 8px;
+    }
+}
+
 

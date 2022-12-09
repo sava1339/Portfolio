@@ -9,7 +9,7 @@
     z-index: 10;
 }
 .posters{
-    padding-top: 100px;
+    padding-top: 10px;
     display: flex;
     justify-content: space-around;
 }
@@ -55,7 +55,7 @@
         font-size: 15px;
     }
 }
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px) and (min-width: 600px){
     .text-in-head{
         font-size: 8px;
     }
@@ -67,5 +67,19 @@
     }
     .info{
         font-size: 10px;
+    }
+}
+@media screen and (max-width: 600px){
+    .text-in-head{
+        font-size: 6px;
+    }
+    .name-info{
+        margin: 8px;
+    }
+    .text-info{
+        padding: 4px;
+    }
+    .info{
+        font-size: 8px;
     }
 }
