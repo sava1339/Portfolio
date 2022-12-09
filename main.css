@@ -28,7 +28,20 @@ header,.nav,.reg{
     justify-content: space-around;
     align-items: center;
 }
-.nav :not(last-child),.reg :not(last-child){
+.reg-button{
+    margin-left: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+.reg-button:hover{
+    background-color: white;
+    color: black;
+    border: 0;
+    box-shadow: 1px 1px 7px;
+}
+.nav :not(last-child){
     padding-right: 20px;
 }
 .text-in-head{
@@ -37,51 +50,9 @@ header,.nav,.reg{
     color: rgb(37, 37, 37);
     text-decoration: none;
 }
-.text-in-head:hover{
+.nav .text-in-head:hover{
     transform: translateY(-5px);
     color: rgb(19, 19, 19);
-}
-.pic{
-    z-index: 1;
-    width: 20%;
-    opacity: 60%;
-}
-.pic:hover{
-    transform: translateY(-5px);
-    opacity: 100%;
-    z-index: 10;
-}
-.posters{
-    padding-top: 100px;
-    display: flex;
-    justify-content: space-around;
-}
-.info{
-    font-size: 30px;
-    display: flex;
-    box-shadow: 1px 1px 20px;
-    width: 90%;
-    margin: auto;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-.block-info{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
-    width: 70%;
-}
-.name-info{
-    text-align: center;
-    border-bottom: 5px solid black;
-}
-section img{
-    width: 30%;
-}
-.text-info{
-    text-align: center;
 }
 footer{
     width: 100%;
@@ -97,3 +68,32 @@ footer{
 .fot img{
     width: 300px;
 }
+@media screen and (max-width: 1028px) and (min-width: 800px){
+    footer{
+        height: 100px;
+    }
+    .nav :not(last-child){
+        padding-right: 10px;
+    }
+    .logo{
+        height: 30px;
+    }
+    footer p{
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 800px){
+    footer{
+        height: 80px;
+    }
+    .nav :not(last-child){
+        padding-right: 5px;
+    }
+    .logo{
+        height: 20px;
+    }
+    footer p{
+        font-size: 10px;
+    }
+}
+
