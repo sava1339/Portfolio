@@ -1,4 +1,6 @@
-const winHei = window.screen.height;
+const winHei = window.innerHeight
 console.log(winHei);
 const main = document.querySelector("main");
-main.style.minHeight = winHei;
+main.style.cssText = `
+    min-height:${winHei}px;
+`
