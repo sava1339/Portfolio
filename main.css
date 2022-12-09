@@ -16,6 +16,9 @@ body{
     margin: auto;
     box-shadow: 1px 1px 20px;
 }
+main{
+    min-height: 1000px;
+}
 header{
     opacity: 95%;
     z-index: 10000;
