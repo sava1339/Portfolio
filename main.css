@@ -35,6 +35,9 @@ header,.nav,.reg{
     border-radius: 20px;
     border: 2px solid black;
 }
+main{
+    min-height: 1500px;
+}
 .reg-button:hover{
     background-color: white;
     color: black;
