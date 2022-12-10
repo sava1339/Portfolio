@@ -24,6 +24,7 @@ header{
     background-color: rgb(223, 223, 223);
 }
 header,.nav,.reg{
+    list-style:none;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -43,6 +44,9 @@ header,.nav,.reg{
 }
 .nav :not(last-child){
     padding-right: 20px;
+}
+.nav{
+    padding-top: 25px;
 }
 .text-in-head{
     font-size: 17px;
