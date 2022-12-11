@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 0.6s ease;
+}
+body{
+    max-width: 1408px;
+    margin: auto;
+    box-shadow: 1px 1px 7px;
+}
+main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    height: 100px;
+}
+.logos{
+    margin-top: 40px;
+    display: flex;
+    justify-content: left;
+}
+.logos svg:not(:last-child){
+    margin-right: 20px;
+}
+.logos svg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+}
+.logos svg:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+h1,p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.forget{
+    padding-top: 20px;
+}
+.soc{
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.login{
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 7px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+}
+.login-el{
+    margin-top: 15px;
+}
+button{
+    color: rgb(0, 0, 0);
+    border: 0px;
+    width: 200px;
+    height: 30px;
+    background-color:rgb(202, 202, 202);
+    border-radius: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    cursor: pointer;
+    background-color:rgb(95, 95, 95);
+    color: white;
+}
+input{
+    background-color: rgb(202, 202, 202);
+    border: 0px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 200px;
+    height: 30px;
+    color: black;
+}
+input:hover{
+    background-color:rgb(95, 95, 95);
+    color: white;
+}
+input:active{
+    border: 0px;
+    width:100px ;
+}
