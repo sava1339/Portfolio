@@ -3,11 +3,69 @@
     padding: 0px;
     transition: all 0.6s ease;
 }
+.reg-table svg{
+    position: absolute;
+    right: 0px;
+    padding: 5px;
+    width: 50px;
+}
+.reg-obj,.reg-input{
+    height: 100%;
+}
+.reg-table svg:hover{
+    cursor: pointer;
+}
+.reg-table.active{
+    position: fixed;
+    background-color: white;
+    width: 600px;
+    height: 500px;
+    z-index: 100000;
+    top: 5%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 7px;
+}
+.reg-input input{
+    border: 0px;
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+    border-radius: 10px;
+    width: 40%;
+    height: 5%;
+}
+.logo-reg{
+    width: 40%;
+}
+.reg-input input:active{
+    border: 0px;
+}
+.reg-input{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.reg-input input,.logo-reg{
+    margin-top: 50px;
+}
+.reg-main.active{
+    width: 600px;
+    margin: 0 auto;
+}
 .logo{
     height: 50px;
 }
 p,h1,h2,h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.white-background{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    background-color: white;
+    opacity: 60%;
+    z-index: 10000;
 }
 body{
     background: rgb(87,201,181);
@@ -48,15 +106,15 @@ header,.nav,.reg{
 .nav{
     padding-top: 25px;
 }
+.nav li:hover{
+    transform: translateY(-5px);
+    color: rgb(19, 19, 19);
+}
 .text-in-head{
     font-size: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(37, 37, 37);
     text-decoration: none;
-}
-.nav .text-in-head:hover{
-    transform: translateY(-5px);
-    color: rgb(19, 19, 19);
 }
 footer{
     width: 100%;
@@ -82,6 +140,16 @@ footer{
     footer p{
         font-size: 15px;
     }
+    .reg-table.active{
+        width: 400px;
+        height: 300px;
+    }
+    .reg-main.active{
+        width: 400px;
+    }
+    .reg-table svg{
+        width: 30px;
+    }
 }
 @media screen and (max-width: 800px) and (min-width: 600px){
     footer{
@@ -96,6 +164,16 @@ footer{
     footer p{
         font-size: 10px;
     }
+    .reg-table.active{
+        width: 400px;
+        height: 300px;
+    }
+    .reg-main.active{
+        width: 400px;
+    }
+    .reg-table svg{
+        width: 30px;
+    }
 }
 @media screen and (max-width: 600px){
     footer{
@@ -109,6 +187,16 @@ footer{
     }
     footer p{
         font-size: 8px;
+    }
+    .reg-table.active{
+        width: 350px;
+        height: 300px;
+    }
+    .reg-main.active{
+        width: 350px;
+    }
+    .reg-table svg{
+        width: 25px;
     }
 }
 
