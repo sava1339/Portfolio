@@ -20,6 +20,7 @@ function reg(){
                 <a class="logo-reg" href="./index.html"><img src="./SVG/logo.svg" alt=""></a>
                 <input placeholder="Имя/Логин" class="reg-input-name" type="text"></input>
                 <input placeholder="Пароль" class="reg-input-password" type="password"></input>
+                <button class="reg-butcom">Зарегистрироваться</button>
                 </div>
                 </div>
             `

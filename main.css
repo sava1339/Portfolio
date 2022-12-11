@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    transition: all 0.6s ease;
+    transition: transform 0.6s ease;
 }
 .reg-table svg{
     position: absolute;
@@ -45,8 +45,21 @@
     align-items: center;
     flex-direction: column;
 }
-.reg-input input,.logo-reg{
+.reg-input input,.logo-reg,.reg-butcom{
     margin-top: 50px;
+}
+.reg-butcom{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px;
+    padding: 10px;
+    background-color:rgb(202, 202, 202) ;
+    border-radius: 15px;
+}
+.reg-butcom:hover{
+    transition: all 0.6s ease;
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+    color: white;
 }
 .reg-main.active{
     width: 600px;
@@ -95,6 +108,7 @@ header,.nav,.reg{
     border: 2px solid black;
 }
 .reg-button:hover{
+    transition: all 0.6s ease;
     background-color: white;
     color: black;
     border: 0;
@@ -142,13 +156,16 @@ footer{
     }
     .reg-table.active{
         width: 400px;
-        height: 300px;
+        height: 350px;
     }
     .reg-main.active{
         width: 400px;
     }
     .reg-table svg{
         width: 30px;
+    }
+    .reg-input input,.logo-reg,.reg-butcom{
+        margin-top: 30px;
     }
 }
 @media screen and (max-width: 800px) and (min-width: 600px){
@@ -174,6 +191,9 @@ footer{
     .reg-table svg{
         width: 30px;
     }
+    .reg-input input,.logo-reg,.reg-butcom{
+        margin-top: 25px;
+    }
 }
 @media screen and (max-width: 600px){
     footer{
@@ -197,6 +217,9 @@ footer{
     }
     .reg-table svg{
         width: 25px;
+    }
+    .reg-input input,.logo-reg,.reg-butcom{
+        margin-top: 20px;
     }
 }
 
