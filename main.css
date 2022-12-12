@@ -114,13 +114,10 @@ header,.nav,.reg{
     border: 0;
     box-shadow: 1px 1px 7px;
 }
-.nav :not(last-child){
+.text-head-pad{
     padding-right: 20px;
 }
-.nav{
-    padding-top: 25px;
-}
-.nav li:hover{
+.top-head:hover{
     transform: translateY(-5px);
     color: rgb(19, 19, 19);
 }
@@ -142,6 +139,9 @@ footer{
     align-items: center;
 }
 @media screen and (max-width: 1028px) and (min-width: 800px){
+    .text-in-head{
+        font-size: 12px;
+    }
     footer{
         height: 100px;
     }
@@ -169,6 +169,9 @@ footer{
     }
 }
 @media screen and (max-width: 800px) and (min-width: 600px){
+    .text-in-head{
+        font-size: 8px;
+    }
     footer{
         height: 80px;
     }
@@ -196,6 +199,9 @@ footer{
     }
 }
 @media screen and (max-width: 600px){
+    .text-in-head{
+        font-size: 6px;
+    }
     footer{
         height: 60px;
     }
