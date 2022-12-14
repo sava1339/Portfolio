@@ -1,7 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-    transition: transform 0.6s ease;
+    transition: all 0.6s ease;
 }
 .reg-table svg{
     position: absolute;
@@ -81,8 +81,7 @@ p,h1,h2,h3{
     z-index: 10000;
 }
 body{
-    background: rgb(87,201,181);
-    background: linear-gradient(90deg, rgba(87,201,181,1) 0%, rgba(228,96,207,1) 100%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(87,201,181,1) 0%, rgba(228,96,207,1) 100%);
     max-width: 1408px;
     margin: auto;
     box-shadow: 1px 1px 20px;
@@ -138,6 +137,7 @@ footer{
     justify-content: space-around;
     align-items: center;
 }
+
 @media screen and (max-width: 1028px) and (min-width: 800px){
     .text-in-head{
         font-size: 12px;
@@ -145,7 +145,7 @@ footer{
     footer{
         height: 100px;
     }
-    .nav :not(last-child){
+    .text-head-pad{
         padding-right: 10px;
     }
     .logo{
@@ -175,11 +175,11 @@ footer{
     footer{
         height: 80px;
     }
-    .nav :not(last-child){
+    .text-head-pad{
         padding-right: 5px;
     }
     .logo{
-        height: 20px;
+        height: 30px;
     }
     footer p{
         font-size: 10px;
@@ -205,7 +205,7 @@ footer{
     footer{
         height: 60px;
     }
-    .nav :not(last-child){
+    .text-head-pad{
         padding-right: 3px;
     }
     .logo{

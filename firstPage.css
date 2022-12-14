@@ -24,6 +24,7 @@
 }
 .block-info{
     background-color: white;
+    border-radius: 5px 0px 0px 5px;
 }
 .name-info{
     margin: 30px;
@@ -41,6 +42,7 @@
 }
 .info img{
     width: 30%;
+    border-radius: 0px 5px 5px 0px;
 }
 @media screen and (max-width: 1028px) and (min-width: 800px){
     .name-info{

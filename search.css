@@ -1,0 +1,80 @@
+.top{
+    height: 200px;
+    text-align: center;
+}
+.sale{
+    margin-top: 40px;
+    position: relative;
+}
+.top h1,.top h2{
+    padding-top: 30px;
+    color: white;
+}
+details{
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.top-black{
+    background-color: black;
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    opacity: 30%;
+    z-index: -1;
+}
+details input{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.search-main{
+    display: flex;
+    justify-content: space-around;
+    min-height: 1000px;
+}
+.search-first .logo{
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-bottom: 30px;
+}
+details:hover{
+    cursor: pointer;
+}
+.input-label:hover{
+    cursor: pointer;
+}
+.search-first{
+    margin-top: 50px;
+    min-height: 1000px;
+    background-color: white;
+}
+.filter{
+    width: 25%;
+    border-right: 2px solid grey;
+}
+.search-posters{
+    width: 65%;
+}
+@media screen and (max-width: 1028px) and (min-width: 800px){
+    h1{
+        font-size: 30px;
+    }
+    h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width: 800px) and (min-width: 600px){
+    h1{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 600px){
+    h1{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 15px;
+    }
+}
