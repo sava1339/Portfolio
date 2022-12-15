@@ -23,7 +23,8 @@ function search(){
                 for(b=0;b<check.length;b++){
                     if(li[i].querySelector("a").classList.contains(check[b].value)){
                         li[i].style.display = "";
-                    }else{
+                        break;
+                    }else if((b+1)===check.length){
                         li[i].style.display = "none";
                     }
                 }
