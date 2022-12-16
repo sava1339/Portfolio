@@ -22,10 +22,6 @@ details,div label{
     opacity: 30%;
     z-index: -1;
 }
-details input,div input{
-    margin-left: 15px;
-    margin-top: 15px;
-}
 .search-main{
     display: flex;
     justify-content: space-around;
@@ -72,10 +68,16 @@ details:hover{
     border: 0px;
     background-color: rgb(172, 172, 172);
     height: 50px;
-    width: 300px;
+    width: 40%;
     border-radius: 25px;
     padding-left: 10px;
     padding-right: 10px;
+}
+.button-input-search{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo-search{
     padding-top: 20px;
