@@ -46,7 +46,6 @@ details:hover{
 .filter{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
 }
 .filter details,.filter div{
@@ -125,5 +124,9 @@ details:hover{
     }
     h2{
         font-size: 15px;
+    }
+    .filter{
+        justify-content: left;
+        flex-direction: column;
     }
 }
