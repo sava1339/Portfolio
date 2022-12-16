@@ -10,7 +10,7 @@
     padding-top: 30px;
     color: white;
 }
-details{
+details,div label{
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -22,7 +22,7 @@ details{
     opacity: 30%;
     z-index: -1;
 }
-details input{
+details input,div input{
     margin-left: 15px;
     margin-top: 15px;
 }
@@ -48,8 +48,10 @@ details:hover{
     background-color: white;
 }
 .filter{
-    width: 25%;
-    border-right: 2px solid grey;
+    display: flex;
+    justify-content: space-around;
+    /* width: 25%;
+    border-right: 2px solid grey; */
 }
 .s-posters{
     display: flex;
@@ -57,8 +59,11 @@ details:hover{
     flex-wrap: wrap;
     width: 100%;
 }
+.open-filter{
+    padding-left: 5%;
+}
 .search-posters{
-    width: 65%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -67,9 +72,16 @@ details:hover{
     border: 0px;
     background-color: rgb(172, 172, 172);
     height: 50px;
-    width: 350px;
+    width: 300px;
     border-radius: 25px;
     padding-left: 10px;
+    padding-right: 10px;
+}
+.logo-search{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    height: 70px;
 }
 .but-search{
     margin-left: 50px;

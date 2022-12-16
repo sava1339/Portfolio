@@ -39,9 +39,18 @@
             </div>
         </div>
         <div class="search-first">
-            <img class="logo" src="./SVG/logo.svg" alt="">
-            <div class="search-main">
+            <img class="logo-search" src="./SVG/logo.svg" alt="">
+            <details class="open-filter">
+                <summary>
+                    Фильтр
+                </summary>
                 <div class="filter">
+                    <div>
+                        <input id="type-filter1" name="type-filter" type="radio">
+                        <label class="input-label" for="type-filter1">Показать...</label><br>
+                        <input id="type-filter2" name="type-filter" type="radio">
+                        <label class="input-label" for="type-filter2">Фильтр по...</label>
+                    </div>
                     <details open class="type">
                         <summary>
                             Тип
@@ -49,7 +58,7 @@
                         <input type="checkbox" value="VideoGame" id="type1">
                         <label class="input-label" for="type1">Видео-игры</label><br>
                         <input type="checkbox" value="Events" id="type2">
-                        <label class="input-label" for="type2">Мероприятия</label><br>
+                        <label class="input-label" for="type2">Мероприятия</label>
                     </details>
                     <details open class="size">
                         <summary>
@@ -60,9 +69,13 @@
                         <input type="checkbox" value="Medium" id="scale2">
                         <label class="input-label" for="scale2">40x50</label><br>
                         <input type="checkbox" value="Large" id="scale3">
-                        <label class="input-label" for="scale3">50x70</label><br>
+                        <label class="input-label" for="scale3">50x70</label>
                     </details>
                 </div>
+            </details>
+            
+            <div class="search-main">
+                
                 <div class="search-posters">
                     <div>
                         <input type="text" placeholder="Поиск..." class="s-search">
@@ -70,7 +83,7 @@
                     </div>
                     <ul style="list-style: none;" class="s-posters">
                         <li class="search-poster"><a class="Little Medium" href="#">Birthday</a></li>
-                        <li class="search-poster"><a class="Medium" href="#">Fortenite</a></li>
+                        <li class="search-poster"><a class="Medium Little" href="#">Fortenite</a></li>
                         <li class="search-poster"><a class="Little" href="#">Last of us</a></li>
                         <li class="search-poster"><a class="Medium" href="#">Fifa19</a></li>
                         <li class="search-poster"><a class="Little" href="#">Hello</a></li>
