@@ -45,9 +45,12 @@ details:hover{
 }
 .filter{
     display: flex;
-    justify-content: space-around;
-    /* width: 25%;
-    border-right: 2px solid grey; */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filter details,.filter div{
+    padding-left: 15px;
 }
 .s-posters{
     display: flex;
