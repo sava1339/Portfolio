@@ -23,6 +23,7 @@ details,div label{
     z-index: -1;
 }
 .search-main{
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     min-height: 1000px;
@@ -96,11 +97,32 @@ details:hover{
     height: 50px;
 }
 .search-poster{
+    position: relative;
     display: block;
     margin-top: 20px;
     width: 250px;
-    height: 350px;
-    background-color: rgb(167, 167, 167);
+    height: 300px;
+    background-color: white;
+    box-shadow: 1px 1px 7px;
+}
+.search-poster a{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+.search-poster a{
+    text-decoration: none;
+}
+.h-poster{
+    font-size: 20px;
+    font-weight: 900;
+    color: grey;
+}
+.search-poster a img{
+    padding-top: 20px;
+    height: 200px;
 }
 @media screen and (max-width: 1028px) and (min-width: 800px){
     h1{
