@@ -14,6 +14,11 @@ function search(){
             check.push(sizeInput[i]);
         };
     }
+    for(c=0;c<typeInput.length;c++){
+        if(typeInput[c].checked){
+            check.push(typeInput[c]);
+        };
+    }
     for(i = 0; i < li.length;i++){
         let a = li[i].querySelectorAll("a")[0];
         if(a.innerHTML.toUpperCase().indexOf(filter)> -1){
