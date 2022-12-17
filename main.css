@@ -170,13 +170,13 @@ footer{
 }
 @media screen and (max-width: 800px) and (min-width: 600px){
     .text-in-head{
-        font-size: 8px;
+        font-size: 10px;
     }
     footer{
         height: 80px;
     }
     .text-head-pad{
-        padding-right: 5px;
+        padding-right: 10px;
     }
     .logo{
         height: 30px;
@@ -200,13 +200,13 @@ footer{
 }
 @media screen and (max-width: 600px){
     .text-in-head{
-        font-size: 6px;
+        font-size: 10px;
     }
     footer{
         height: 60px;
     }
     .text-head-pad{
-        padding-right: 3px;
+        padding-right: 5px;
     }
     .logo{
         height: 20px;
