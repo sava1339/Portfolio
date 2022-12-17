@@ -87,6 +87,7 @@ body{
     box-shadow: 1px 1px 20px;
 }
 header{
+    position: relative;
     opacity: 95%;
     z-index: 10000;
     height: 70px;
@@ -98,6 +99,9 @@ header,.nav,.reg{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+.nav li:not(:last-child){
+    padding-right: 10px;
 }
 .reg-button{
     margin-left: 15px;
@@ -112,9 +116,6 @@ header,.nav,.reg{
     color: black;
     border: 0;
     box-shadow: 1px 1px 7px;
-}
-.text-head-pad{
-    padding-right: 20px;
 }
 .top-head:hover{
     transform: translateY(-5px);
@@ -145,9 +146,6 @@ footer{
     footer{
         height: 100px;
     }
-    .text-head-pad{
-        padding-right: 10px;
-    }
     .logo{
         height: 30px;
     }
@@ -175,9 +173,6 @@ footer{
     footer{
         height: 80px;
     }
-    .text-head-pad{
-        padding-right: 10px;
-    }
     .logo{
         height: 30px;
     }
@@ -200,13 +195,10 @@ footer{
 }
 @media screen and (max-width: 600px){
     .text-in-head{
-        font-size: 10px;
+        font-size: 8px;
     }
     footer{
         height: 60px;
-    }
-    .text-head-pad{
-        padding-right: 5px;
     }
     .logo{
         height: 20px;
