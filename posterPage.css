@@ -24,10 +24,14 @@
 .buy-button{
     position: relative;
 }
+.buy-sum{
+    display: flex;
+    justify-content: end;
+}
 .buy-button li {
+    max-width: 80%;
     margin: auto;
 }
 .buy-sub{
     text-align: center;
-    max-width: 80%;
 }
