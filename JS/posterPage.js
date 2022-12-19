@@ -1,1 +1,1 @@
-console.log(localStorage.getItem(li[id].querySelector("img").src));
+console.log(window.urlpage);

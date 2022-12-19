@@ -57,7 +57,7 @@ function search(){
     }
     
 }
-function postercl(id){
+async function postercl(id){
     li = ul.querySelectorAll(".search-poster");
-    localStorage.setItem(li[id].querySelector("img").src);
+    var urlpage=li[id].querySelector("img").src;
 }
