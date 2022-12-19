@@ -17,7 +17,7 @@ li{
     width: 40%;
 }
 .img-commodity img{
-    width: 100%;
+    max-width: 100%;
 }
 .img-buy{
     display: flex;
