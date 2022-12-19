@@ -20,7 +20,12 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+}
+.buy-button{
+    position: relative;
+}
+.buy-button li {
+    margin: auto;
 }
 .buy-sub{
     text-align: center;
