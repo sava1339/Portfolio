@@ -68,7 +68,7 @@
 .logo{
     height: 50px;
 }
-p,h1,h2,h3{
+p,h1,h2,h3,label{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .white-background{
