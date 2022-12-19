@@ -2,12 +2,14 @@ const size = document.querySelector(".size");
 const sizeInput = size.querySelectorAll("input");
 const type = document.querySelector(".type");
 const typeInput = type.querySelectorAll("input");
+let ul = document.querySelector(".s-posters");
+let li = ul.querySelectorAll(".search-poster");
 let check = [];
 function search(){
     let input = document.querySelector(".s-search");
     let filter = input.value.toUpperCase();
-    let ul = document.querySelector(".s-posters");
-    let li = ul.querySelectorAll(".search-poster");
+    ul = document.querySelector(".s-posters");
+    li = ul.querySelectorAll(".search-poster");
     check = [];
     for(i = 0;i < sizeInput.length;i++){
         if(sizeInput[i].checked){
@@ -54,4 +56,9 @@ function search(){
         }
     }
     
+}
+var posterurl = undefined;
+function postercl(id){
+    li = ul.querySelectorAll(".search-poster");
+    console.log(li[id].querySelector("img").src);
 }
