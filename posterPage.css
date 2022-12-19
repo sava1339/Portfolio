@@ -11,3 +11,6 @@
     display: flex;
     justify-content: space-around;
 }
+.img-buy li{
+    padding-top: 25px;
+}
