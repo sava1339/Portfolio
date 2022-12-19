@@ -22,6 +22,7 @@ li{
     padding-top: 25px;
 }
 .buy-commodity{
+    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
