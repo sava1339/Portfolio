@@ -16,6 +16,9 @@ li{
     padding: 20px;
     width: 40%;
 }
+.img-commodity img{
+    max-width: 490px;
+}
 .img-buy{
     display: flex;
     justify-content: space-around;
