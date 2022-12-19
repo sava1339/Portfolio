@@ -60,5 +60,5 @@ function search(){
 var posterurl = undefined;
 function postercl(id){
     li = ul.querySelectorAll(".search-poster");
-    console.log(li[id].querySelector("img").src);
+    posterurl =li[id].querySelector("img").src;
 }
