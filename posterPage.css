@@ -27,14 +27,15 @@
 .buy-sum{
     display: flex;
     justify-content: end;
+    align-items: center;
 }
 .buy-sum li {
-    padding-right: 15px;
+    margin-right: 15px;
 }
 .buy-tap-button{
     border: 0px;
     background-color: rgb(55, 146, 55);
-    padding: 15px 5px 5px 15px;
+    padding: 5px 15px 5px 15px;
     border-radius: 5px;
     color: white;
 }
