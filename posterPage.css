@@ -22,6 +22,7 @@ li{
 .img-buy{
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .img-buy li{
     padding-top: 25px;
