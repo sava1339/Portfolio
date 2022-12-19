@@ -60,4 +60,5 @@ function search(){
 async function postercl(id){
     li = ul.querySelectorAll(".search-poster");
     localStorage.urlpage = li[id].querySelector("img").src;
+    localStorage.namepage = li[id].querySelector("p").textContent;
 }

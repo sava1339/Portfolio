@@ -1,0 +1,13 @@
+.commodity{
+    width: 80%;
+    min-height: 300px;
+    background-color: white;
+    margin: auto;
+    margin-top: 25px;
+    box-shadow: 1px 1px 7px;
+    border-radius: 15px;
+}
+.img-buy{
+    display: flex;
+    justify-content: space-around;
+}
