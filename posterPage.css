@@ -29,15 +29,15 @@
     justify-content: end;
     align-items: center;
 }
-.buy-button li {
-    margin-right: 15px;
-}
 .buy-tap-button{
     border: 0px;
     background-color: rgb(55, 146, 55);
     padding: 5px 15px 5px 15px;
     border-radius: 5px;
     color: white;
+}
+.price{
+    margin-right: 15px;
 }
 .buy-button li {
     max-width: 80%;
