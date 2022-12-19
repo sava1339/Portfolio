@@ -56,6 +56,7 @@ li{
 .buy-button li {
     max-width: 400px;
     margin: auto;
+    padding: 0px 5px 0px 5px;
 }
 .buy-sub{
     text-align: center;
