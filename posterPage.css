@@ -28,7 +28,6 @@ li{
     padding-top: 25px;
 }
 .buy-commodity{
-    width: 50%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -62,10 +61,12 @@ li{
     text-align: center;
 }
 @media screen and (max-width: 600px){
+
     .name-commodity{
-        font-size: 18px;
+        font-size: 20px;
     }
-    .commodity p {
-        font-size: 10px;
+    
+    .commodity p,.commodity label {
+        font-size: 12px;
     }
 }
