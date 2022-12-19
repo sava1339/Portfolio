@@ -61,3 +61,11 @@ li{
 .buy-sub{
     text-align: center;
 }
+@media screen and (max-width: 600px){
+    .name-commodity{
+        font-size: 18px;
+    }
+    .commodity p {
+        font-size: 10px;
+    }
+}
