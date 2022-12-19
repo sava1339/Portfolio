@@ -1,1 +1,1 @@
-console.log(window.urlpage);
+console.log(localStorage.urlpage);
