@@ -1,1 +1,1 @@
-console.log(posterurl);
+console.log(localStorage.getItem(li[id].querySelector("img").src));

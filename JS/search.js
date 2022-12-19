@@ -57,8 +57,7 @@ function search(){
     }
     
 }
-var posterurl = undefined;
 function postercl(id){
     li = ul.querySelectorAll(".search-poster");
-    posterurl =li[id].querySelector("img").src;
+    localStorage.setItem(li[id].querySelector("img").src);
 }
