@@ -15,3 +15,8 @@
     list-style: none;
     padding-top: 25px;
 }
+.buy-commodity{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
