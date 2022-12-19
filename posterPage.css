@@ -11,12 +11,10 @@ li{
     border-radius: 15px;
 }
 .img-commodity{
-    position: relative;
+    display: flex;
+    justify-content: center;
     padding: 20px;
     width: 40%;
-}
-.img-commodity img{
-    margin: auto;
 }
 .img-buy{
     display: flex;
