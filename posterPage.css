@@ -14,10 +14,9 @@ li{
     display: flex;
     justify-content: center;
     padding: 20px;
-    width: 40%;
 }
 .img-commodity img{
-    max-width: 100%;
+    max-height: 450px;
 }
 .img-buy{
     display: flex;
