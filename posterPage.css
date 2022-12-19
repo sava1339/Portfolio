@@ -28,6 +28,16 @@
     display: flex;
     justify-content: end;
 }
+.buy-sum li {
+    padding-right: 15px;
+}
+.buy-tap-button{
+    border: 0px;
+    background-color: rgb(55, 146, 55);
+    padding: 15px 15px 5px 5px;
+    border-radius: 5px;
+    color: white;
+}
 .buy-button li {
     max-width: 80%;
     margin: auto;
