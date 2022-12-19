@@ -34,7 +34,7 @@
 .buy-tap-button{
     border: 0px;
     background-color: rgb(55, 146, 55);
-    padding: 15px 15px 5px 5px;
+    padding: 15px 5px 5px 15px;
     border-radius: 5px;
     color: white;
 }
