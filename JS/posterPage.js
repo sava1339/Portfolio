@@ -9,5 +9,3 @@ if(sessionStorage.urlpage){
     sessionStorage.urlpage =localStorage.urlpage;
     sessionStorage.namepage =localStorage.namepage;
 }
-
-
