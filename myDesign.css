@@ -1,0 +1,49 @@
+.my-disign-window{
+    width: 1200px;
+    min-height: 200px ;
+    margin: auto;
+    background-color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.design-top-text{
+    padding-top: 15px;
+    text-align: center;
+}
+.my-disign{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.img-my-disign,.configure-my-disign{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+.img-disign{
+    height: 40%;
+}
+.configure-size input{
+    height: 20px;
+}
+.configure-size{
+    display: flex;
+    justify-content: space-around;
+}
+.configure-size li{
+    display: flex;
+    flex-direction: column;
+}
+.configure-size li:not(:last-child){
+    padding-right: 10px;
+}
+li{
+    list-style: none;
+}
+.configure-my-disign ul li,.img-my-disign li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

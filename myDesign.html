@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Товар</title>
+    <title>Document</title>
     <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./posterPage.css">
+    <link rel="stylesheet" href="./myDesign.css">
 </head>
 <body>
     <div class="reg-main">
@@ -31,34 +31,37 @@
         </div>
     </header>
     <main>
-        <div class="commodity">
-            <ul class="img-buy">
-                <li class="img-commodity">
-                    <img src="" alt="">
+        <div class="my-disign-window">
+            <h2 class="design-top-text">Создание своего дизайна</h2>
+            <ul class="my-disign">
+                <li class="img-my-disign">
+                    <ul>
+                        <li><input onchange="previewFile()" class="input-img" type="file"></li>
+                        <img class="img-disign" src="" alt="">
+                    </ul>
                 </li>
-                <li class="buy-commodity">
-                    <h2 class="name-commodity">
-
-                    </h2>
-                    <ul class="buy-button">
-                        <li class="buy-sum">
-                            <label class="price" for="buy">250 руб</label>
-                            <button class="buy-tap-button" name="buy">Купить!</button>
-                        </li>
-                        <li class="buy-sub">
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id perferendis iste magni vel ad minus distinctio, voluptate ab minima nisi earum! Id quasi expedita quas vitae obcaecati mollitia voluptates dolor.
-                            </p>
+                <li class="configure-my-disign">
+                    <ul>
+                        <li><p>Измените размер вашего плаката</p></li>
+                        <li>
+                            <ul class="configure-size">
+                                <li>
+                                    <label for="">30x40</label>
+                                    <input type="radio" name="size" id="">
+                                </li>
+                                <li>
+                                    <label for="">40x50</label>
+                                    <input type="radio" name="size" id="">
+                                </li>
+                                <li>
+                                    <label for="">50x60</label>
+                                    <input type="radio" name="size" id="">
+                                </li>
+                            </ul>
                         </li>
                     </ul>
-                    
                 </li>
             </ul>
-            <div class="text-comments">
-                <ul class="other-func">
-                    
-                </ul>
-            </div>
         </div>
     </main>
     <footer>
@@ -68,7 +71,7 @@
             <p>Автор:Якимов Савелий</p>
         </div>
     </footer>
+    <script src="./JS/main.js"></script>
+    <script src="./JS/myDesign.js"></script>
 </body>
-<script src="./JS/posterPage.js"></script>
-<script src="./JS/main.js"></script>
 </html>
